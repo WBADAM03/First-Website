@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(182, 210, 214);
+  }
+  h1 {
+    color: blue;
+  }
+  p {
+    color: black;
+  }
+
+
+h3 
+  { 
+    padding: 5px;
+    margin: -15px;
+  } 
