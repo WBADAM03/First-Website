@@ -1,16 +1,27 @@
 body {
-    background-color: rgb(182, 210, 214);
-  }
-  h1 {
-    color: blue;
-  }
-  p {
-    color: black;
-  }
+  background-color: rgb(182, 210, 214);
+}
+
+h1 {
+  color: blue;
+}
+
+p {
+  color: black;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.customHeading {
+margin-top: 0;
+margin-bottom: 0;
+font-weight: bold;
+color: black;
+}
 
 
 h3 
-  { 
-    padding: 5px;
-    margin: -15px;
-  } 
+{ 
+  padding: 5px;
+  margin: -15px;
+} 
