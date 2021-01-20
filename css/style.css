@@ -1,6 +1,8 @@
 /*This is the base background color, will be updated to be a better theme later */
 body {
-  background-color: rgb(182, 210, 214);
+  /* background-color: rgb(182, 210, 214); */
+  background-image: url("../images/image3.jpg");
+  background-size: auto ;
 }
 
 /* this is the base paragraph style */
