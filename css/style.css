@@ -1,34 +1,19 @@
 /*This is the base background color, will be updated to be a better theme later */
 body {
   background-image: url("../images/image3.jpg");
-  background-color: rgb(182, 210, 214); 
+  background-color: rgb(182, 210, 214); /*Will load to this color if background image error */
   background-size: auto ;
-}
-
-/* this is the base paragraph style */
-p {
-  color: black;
-  margin-top:0;
-  margin-bottom:0;
 }
 
 /* This class is used for custom headings, mostly with resume page to highlight sections */
 .customHeading {
-margin-top: 0;
-margin-bottom: 0;
-font-weight: bolder;
-color: black;
-}
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bolder;
+  color: black;
+  }
 
-/* This class is used for div tags for spacing purposes, close enough to be related to text
-but far enough to be related */
-.sectionBlocks {
-line-height: height 50px;
-margin-top:10px;
-margin-bottom:10px
-}
-
-/* this class is used with the div tag to create a menu for the website on each page */
+  /* this class is used with the div tag to create a menu for the website on each page */
 .nav {
   height: 100%;
   width: 200px;
@@ -65,4 +50,27 @@ margin-bottom:10px
 do not overwrite/head main text */
 .moveright {
   margin-left: 200px;
+} 
+
+/* This class is used for div tags for spacing purposes, close enough to be related to text
+but far enough to be related */
+.sectionBlocks {
+  line-height: height 50px;
+  margin-top:10px;
+  margin-bottom:10px
+  }
+  
+/* this is the base paragraph style */
+p {
+  color: black;
+  margin-top:0;
+  margin-bottom:0;
 }
+
+/*This class sets the footer away from the main content and shifts right to avoid being covered
+by the nav menu*/
+.footer {
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
