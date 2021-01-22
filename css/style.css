@@ -16,12 +16,12 @@ body {
   /* this class is used with the div tag to create a menu for the website on each page */
 .nav {
   height: 100%;
-  width: 200px;
+  width: 11%;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: rgb(8, 8, 8);
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -42,14 +42,14 @@ body {
 
 /* this class targets behavior for active tab on the menu with div element */
 .nav a.active {
-  background-color: #4CAF50;
+  background-color: #b19128;
   color: white;
 }
 
 /* this class is used with div elements to adjust margins spacing so that menu options
 do not overwrite/head main text */
 .moveright {
-  margin-left: 200px;
+  margin-left: 140px;
 } 
 
 /* This class is used for div tags for spacing purposes, close enough to be related to text
@@ -70,7 +70,7 @@ p {
 /*This class sets the footer away from the main content and shifts right to avoid being covered
 by the nav menu*/
 .footer {
-  margin-left: 200px;
+  margin-left: 140px;
   margin-top: 50px;
 }
 
