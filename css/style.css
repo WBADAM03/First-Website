@@ -28,7 +28,7 @@ body {
 
 /* This class is used for the menu on each page with the div element*/
 .nav a {
-  padding: 6px 6px 6px 32px;
+  padding: 6px 6px 6px 15px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
