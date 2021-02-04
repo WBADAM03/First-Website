@@ -74,3 +74,22 @@ by the nav menu*/
   margin-top: 50px;
 }
 
+@media(min-width:500px){
+  .moveright{
+    margin-left:200px;
+  }
+  .footer{
+    margin-left: 200px;
+    margin-top:50px;
+  }
+}
+
+@media(max-width:499px){
+  .moveright{
+    margin-left:180px;
+  }
+  .footer{
+    margin-left: 180px;
+    margin-top:40px;
+  }
+}
