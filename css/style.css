@@ -1,8 +1,18 @@
+
+
+/*Global Styles */
+
+html {
+  font-size:16px;
+}
+
 /*This is the base background color, will be updated to be a better theme later */
+
 body {
   background-image: url("../images/image3.jpg");
   background-color: rgb(182, 210, 214); /*Will load to this color if background image error */
   background-size: auto ;
+  font-size:1rem;
 }
 
 /* This class is used for custom headings, mostly with resume page to highlight sections */
@@ -74,22 +84,30 @@ by the nav menu*/
   margin-top: 50px;
 }
 
-@media(min-width:500px){
+@media(min-width:1000px){
   .moveright{
-    margin-left:200px;
+    margin-left:7rem;
   }
   .footer{
-    margin-left: 200px;
-    margin-top:50px;
+    margin-left:7rem;
+    margin-top:2.5rem;
+  }
+  .nav {
+    height: 100%;
+    width: 7rem;
   }
 }
 
-@media(max-width:499px){
+@media(max-width:500px){
   .moveright{
-    margin-left:180px;
+    margin-left:1rem;
   }
   .footer{
-    margin-left: 180px;
-    margin-top:40px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  .nav {
+    height: 2.5rem;
+    width: 5rem;
   }
 }
