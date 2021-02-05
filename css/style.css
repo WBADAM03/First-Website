@@ -100,14 +100,14 @@ by the nav menu*/
 
 @media(max-width:500px){
   .moveright{
-    margin-left:1rem;
+    margin-left:7rem;
   }
   .footer{
-    margin-left: 1rem;
-    margin-top: 1rem;
+    margin-left: 7rem;
+    margin-top: 2.5rem;
   }
   .nav {
-    height: 2.5rem;
-    width: 5rem;
+    height: 100%;
+    width: 7rem;
   }
 }
