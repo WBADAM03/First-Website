@@ -60,7 +60,20 @@ body {
 do not overwrite/head main text */
 .moveright {
   margin-left: 220px;
+  display: flex;
+  flex-direction: column;
 } 
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .contactForm * {
+    min-width: 35%;
+    margin-bottom: 0.5rem;
+  }
 
 /* This class is used for div tags for spacing purposes, close enough to be related to text
 but far enough to be related */
@@ -97,6 +110,8 @@ by the nav menu*/
     width: 7rem;
   }
 }
+
+
 
 @media(max-width:500px){
   .moveright{
