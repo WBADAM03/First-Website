@@ -1,34 +1,27 @@
 
-var fname = document.forms('#fname');
-var lname = document.forms('#lname');
-var email = document.forms('#email');
-var message = document.forms('#message');
+var fname = document.getElementById('#fname');
+var lname = document.getElementById('#lname');
+var email = document.getElementById('#email');
+var message = document.getElementById('#message');
 
-if (fname.value == "") { 
-    window.alert("Please type your first name."); 
-    fname.focus(); 
-    return false; 
+function validateForm(){
+
+if (fname == "" || fname == null){
+    window.alert("Please type your first name.");
+    }
 } 
 
-if (lname.value == "") { 
-    window.alert("Please type your last name."); 
-    lname.focus(); 
-    return false; 
-} 
 
-if (email.value == "") { 
-    window.alert( 
-      "Please enter a valid e-mail address."); 
-    email.focus(); 
-    return false; 
-} 
+if (lname == "" || lname == null){
+    window.alert("Please type your last name.");
+    }
 
-if (message.value == "") { 
-    window.alert( 
-      "Please type a message."); 
-    message.focus(); 
-    return false; 
-}
 
-return true;
+if (email == "" || email == null){
+    window.alert("Please type your email address.");
+    }
 
+
+if (message == "" || message == null){
+    window.alert("Please type your message.");
+    }
