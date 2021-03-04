@@ -75,6 +75,10 @@ do not overwrite/head main text */
     margin-bottom: 0.5rem;
   }
 
+  .formError {
+  background-color: red;
+  }
+
 /* This class is used for div tags for spacing purposes, close enough to be related to text
 but far enough to be related */
 .sectionBlocks {
